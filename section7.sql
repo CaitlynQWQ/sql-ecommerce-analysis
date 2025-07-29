@@ -77,7 +77,8 @@ GROUP BY yearweek(created_at);
 
 
 -- Practice 5
--- 可以把 "organic search" 理解成： 没有被广告“砸钱”的搜索流量，是用户主动搜索点进来的，是一种“自然产生”的网站访问方式。
+-- Understand "organic search" as search traffic that isn’t driven by paid advertising.
+-- it's when users actively search and click through to a website on their own, making it a “naturally occurring” form of site visits.
 SELECT DISTINCT 
 	utm_source,
     utm_campaign,
